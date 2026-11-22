@@ -21,6 +21,7 @@ ORDERED_OBJS += \
 "./src/CortexM.obj" \
 "./src/EUSCI_A0_UART.obj" \
 "./src/Encoder.obj" \
+"./src/GPIO.obj" \
 "./src/HC05_UART.obj" \
 "./src/Motor.obj" \
 "./src/Packet.obj" \
@@ -159,8 +160,8 @@ ECE528_FinalProject_TelemertyRover.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(EXE_OUTPUTS__QUOTED)
-	-$(RM) "main.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" "src\BIT.obj" "src\Battery_ADC.obj" "src\Bumper_Switches.obj" "src\Clock.obj" "src\Control.obj" "src\CortexM.obj" "src\EUSCI_A0_UART.obj" "src\Encoder.obj" "src\HC05_UART.obj" "src\Motor.obj" "src\Packet.obj" "src\SysTick_Interrupt.obj" "src\Timer_A0_PWM.obj" "src\Timer_A1_Interrupt.obj" 
-	-$(RM) "main.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" "src\BIT.d" "src\Battery_ADC.d" "src\Bumper_Switches.d" "src\Clock.d" "src\Control.d" "src\CortexM.d" "src\EUSCI_A0_UART.d" "src\Encoder.d" "src\HC05_UART.d" "src\Motor.d" "src\Packet.d" "src\SysTick_Interrupt.d" "src\Timer_A0_PWM.d" "src\Timer_A1_Interrupt.d" 
+	-$(RM) "main.obj" "startup_msp432p401r_ccs.obj" "system_msp432p401r.obj" "src\BIT.obj" "src\Battery_ADC.obj" "src\Bumper_Switches.obj" "src\Clock.obj" "src\Control.obj" "src\CortexM.obj" "src\EUSCI_A0_UART.obj" "src\Encoder.obj" "src\GPIO.obj" "src\HC05_UART.obj" "src\Motor.obj" "src\Packet.obj" "src\SysTick_Interrupt.obj" "src\Timer_A0_PWM.obj" "src\Timer_A1_Interrupt.obj" 
+	-$(RM) "main.d" "startup_msp432p401r_ccs.d" "system_msp432p401r.d" "src\BIT.d" "src\Battery_ADC.d" "src\Bumper_Switches.d" "src\Clock.d" "src\Control.d" "src\CortexM.d" "src\EUSCI_A0_UART.d" "src\Encoder.d" "src\GPIO.d" "src\HC05_UART.d" "src\Motor.d" "src\Packet.d" "src\SysTick_Interrupt.d" "src\Timer_A0_PWM.d" "src\Timer_A1_Interrupt.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

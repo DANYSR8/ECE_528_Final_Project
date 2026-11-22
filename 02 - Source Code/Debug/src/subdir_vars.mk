@@ -14,6 +14,7 @@ C_SRCS += \
 ../src/CortexM.c \
 ../src/EUSCI_A0_UART.c \
 ../src/Encoder.c \
+../src/GPIO.c \
 ../src/HC05_UART.c \
 ../src/Motor.c \
 ../src/Packet.c \
@@ -30,6 +31,7 @@ C_DEPS += \
 ./src/CortexM.d \
 ./src/EUSCI_A0_UART.d \
 ./src/Encoder.d \
+./src/GPIO.d \
 ./src/HC05_UART.d \
 ./src/Motor.d \
 ./src/Packet.d \
@@ -46,6 +48,7 @@ OBJS += \
 ./src/CortexM.obj \
 ./src/EUSCI_A0_UART.obj \
 ./src/Encoder.obj \
+./src/GPIO.obj \
 ./src/HC05_UART.obj \
 ./src/Motor.obj \
 ./src/Packet.obj \
@@ -62,6 +65,7 @@ OBJS__QUOTED += \
 "src\CortexM.obj" \
 "src\EUSCI_A0_UART.obj" \
 "src\Encoder.obj" \
+"src\GPIO.obj" \
 "src\HC05_UART.obj" \
 "src\Motor.obj" \
 "src\Packet.obj" \
@@ -78,6 +82,7 @@ C_DEPS__QUOTED += \
 "src\CortexM.d" \
 "src\EUSCI_A0_UART.d" \
 "src\Encoder.d" \
+"src\GPIO.d" \
 "src\HC05_UART.d" \
 "src\Motor.d" \
 "src\Packet.d" \
@@ -94,6 +99,7 @@ C_SRCS__QUOTED += \
 "../src/CortexM.c" \
 "../src/EUSCI_A0_UART.c" \
 "../src/Encoder.c" \
+"../src/GPIO.c" \
 "../src/HC05_UART.c" \
 "../src/Motor.c" \
 "../src/Packet.c" \

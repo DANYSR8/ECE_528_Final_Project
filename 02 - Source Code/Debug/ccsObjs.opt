@@ -9,6 +9,7 @@
 "./src/CortexM.obj"
 "./src/EUSCI_A0_UART.obj"
 "./src/Encoder.obj"
+"./src/GPIO.obj"
 "./src/HC05_UART.obj"
 "./src/Motor.obj"
 "./src/Packet.obj"

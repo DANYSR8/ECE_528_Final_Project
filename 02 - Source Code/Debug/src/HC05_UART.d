@@ -23,11 +23,11 @@ src/HC05_UART.obj: C:/ti/ccs1260/ccs/ccs_base/arm/include/CMSIS/cmsis_compiler.h
 src/HC05_UART.obj: C:/ti/ccs1260/ccs/ccs_base/arm/include/CMSIS/cmsis_ccs.h
 src/HC05_UART.obj: C:/ti/ccs1260/ccs/ccs_base/arm/include/system_msp432p401r.h
 src/HC05_UART.obj: C:/Users/danie/Desktop/CSUN-\ Masters\ Degree/Fall\ 2026/Robotics/Final\ Project/02\ -\ Source\ Code/inc/Clock.h
+src/HC05_UART.obj: C:/Users/danie/Desktop/CSUN-\ Masters\ Degree/Fall\ 2026/Robotics/Final\ Project/02\ -\ Source\ Code/inc/Motor.h
+src/HC05_UART.obj: C:/Users/danie/Desktop/CSUN-\ Masters\ Degree/Fall\ 2026/Robotics/Final\ Project/02\ -\ Source\ Code/inc/CortexM.h
+src/HC05_UART.obj: C:/Users/danie/Desktop/CSUN-\ Masters\ Degree/Fall\ 2026/Robotics/Final\ Project/02\ -\ Source\ Code/inc/Timer_A0_PWM.h
 src/HC05_UART.obj: C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h
 src/HC05_UART.obj: C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
-src/HC05_UART.obj: ../inc/Motor.h
-src/HC05_UART.obj: ../inc/CortexM.h
-src/HC05_UART.obj: ../inc/Timer_A0_PWM.h
 
 ../src/HC05_UART.c:
 
@@ -75,13 +75,13 @@ C:/ti/ccs1260/ccs/ccs_base/arm/include/system_msp432p401r.h:
 
 C:/Users/danie/Desktop/CSUN-\ Masters\ Degree/Fall\ 2026/Robotics/Final\ Project/02\ -\ Source\ Code/inc/Clock.h:
 
+C:/Users/danie/Desktop/CSUN-\ Masters\ Degree/Fall\ 2026/Robotics/Final\ Project/02\ -\ Source\ Code/inc/Motor.h:
+
+C:/Users/danie/Desktop/CSUN-\ Masters\ Degree/Fall\ 2026/Robotics/Final\ Project/02\ -\ Source\ Code/inc/CortexM.h:
+
+C:/Users/danie/Desktop/CSUN-\ Masters\ Degree/Fall\ 2026/Robotics/Final\ Project/02\ -\ Source\ Code/inc/Timer_A0_PWM.h:
+
 C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h:
 
 C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h:
-
-../inc/Motor.h:
-
-../inc/CortexM.h:
-
-../inc/Timer_A0_PWM.h:
 

@@ -19,6 +19,28 @@ main.obj: C:/ti/ccs1260/ccs/ccs_base/arm/include/CMSIS/core_cm4.h
 main.obj: C:/ti/ccs1260/ccs/ccs_base/arm/include/CMSIS/cmsis_compiler.h
 main.obj: C:/ti/ccs1260/ccs/ccs_base/arm/include/CMSIS/cmsis_ccs.h
 main.obj: C:/ti/ccs1260/ccs/ccs_base/arm/include/system_msp432p401r.h
+main.obj: C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/math.h
+main.obj: C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/_defs.h
+main.obj: C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/machine/_limits.h
+main.obj: C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h
+main.obj: C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h
+main.obj: C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdlib.h
+main.obj: ../inc/Clock.h
+main.obj: ../inc/CortexM.h
+main.obj: ../inc/GPIO.h
+main.obj: ../inc/Clock.h
+main.obj: ../inc/EUSCI_A0_UART.h
+main.obj: C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/file.h
+main.obj: ../inc/Motor.h
+main.obj: ../inc/Timer_A0_PWM.h
+main.obj: ../inc/HC05_UART.h
+main.obj: C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/string.h
+main.obj: C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/xlocale/_string.h
+main.obj: ../inc/Clock.h
+main.obj: ../inc/Timer_A1_Interrupt.h
+main.obj: ../inc/Bumper_Switches.h
+main.obj: ../inc/SysTick_Interrupt.h
+main.obj: ../inc/Packet.h
 
 ../main.c:
 
@@ -57,4 +79,48 @@ C:/ti/ccs1260/ccs/ccs_base/arm/include/CMSIS/cmsis_compiler.h:
 C:/ti/ccs1260/ccs/ccs_base/arm/include/CMSIS/cmsis_ccs.h:
 
 C:/ti/ccs1260/ccs/ccs_base/arm/include/system_msp432p401r.h:
+
+C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/math.h:
+
+C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/_defs.h:
+
+C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/machine/_limits.h:
+
+C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdio.h:
+
+C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdarg.h:
+
+C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/stdlib.h:
+
+../inc/Clock.h:
+
+../inc/CortexM.h:
+
+../inc/GPIO.h:
+
+../inc/Clock.h:
+
+../inc/EUSCI_A0_UART.h:
+
+C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/file.h:
+
+../inc/Motor.h:
+
+../inc/Timer_A0_PWM.h:
+
+../inc/HC05_UART.h:
+
+C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/string.h:
+
+C:/ti/ccs1260/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include/xlocale/_string.h:
+
+../inc/Clock.h:
+
+../inc/Timer_A1_Interrupt.h:
+
+../inc/Bumper_Switches.h:
+
+../inc/SysTick_Interrupt.h:
+
+../inc/Packet.h:
 
